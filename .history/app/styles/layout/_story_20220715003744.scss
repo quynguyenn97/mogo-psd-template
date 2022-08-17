@@ -1,0 +1,19 @@
+.story {
+    padding: 10rem 0;
+    background-color: #fff;
+    &-list {
+        @include flexbox(stretch, space-between);
+    }
+    &-item {
+        width: calc(33.33% - 2rem);
+    }
+    &-image {
+        @include size(100%, 24rem);
+        object-fit: cover;
+    }
+    &-date {
+        background-color: $third-color;
+        padding: 1.5rem 2rem;
+        @include flexbox(center, center, column);
+    }
+}

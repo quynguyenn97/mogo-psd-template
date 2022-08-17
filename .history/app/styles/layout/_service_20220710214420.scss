@@ -1,0 +1,9 @@
+.service {
+    padding: 11rem 0 12rem ;
+    &-list {
+        @include flexbox;
+    }
+    &-item {
+        width: 33.33%;
+    }
+}

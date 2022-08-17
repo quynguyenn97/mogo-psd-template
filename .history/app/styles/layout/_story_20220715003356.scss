@@ -1,0 +1,10 @@
+.story {
+    padding: 10rem 0;
+    background-color: #fff;
+    &-list {
+        @include flexbox();
+
+    }
+    &-item {
+    }
+}

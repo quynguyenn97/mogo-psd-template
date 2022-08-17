@@ -1,0 +1,18 @@
+.number {
+    background-color: $third-color;
+    // width: 100%;
+    &-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-item {
+        padding: 9rem 3rem;
+        &-count {
+            font-size: 7.2rem;
+            font-weight: bold;
+            color: #fff;
+        }
+    
+    }
+}    

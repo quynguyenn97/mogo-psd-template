@@ -1,0 +1,29 @@
+.number {
+    background-color: $third-color;
+    // width: 100%;
+    &-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-item {
+        text-align: center;
+        padding: 8.5rem 3.5rem;
+        border-left: 1px solid #fff;
+        width: 20%;
+        color: #fff;
+        text-transform: uppercase;
+        &:last-child {
+            border-right: 1px solid #fff;
+        }
+        &-count {
+            font-size: 7.2rem;
+            font-weight: bold;
+            margin-bottom: 3rem;
+        }
+        &-text {
+            // font-size: 1.4rem;
+            // color: #fff;
+        }
+    }
+}    
